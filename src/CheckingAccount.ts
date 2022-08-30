@@ -13,7 +13,11 @@ export default class CheckingAccount {
         this.nameAccount = newName;
     }
 
-    
+    deposite(deposite: number) {
+        
+    }
+
+
 
 
     
