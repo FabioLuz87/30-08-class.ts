@@ -19,3 +19,13 @@ export default class Counter {
         return this.value;
     }
 }
+
+let counter = new Counter()
+
+console.log(counter.getValue());
+
+counter.increaseValue(2);
+
+counter.increaseValue(2);
+
+counter.resetValue();

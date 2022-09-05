@@ -29,3 +29,11 @@ export default class CheckingAccount {
             console.log('Você não poderá sacar o valor, pois sua conta não possui cheque especial');
     }
 }
+
+let account = new CheckingAccount(1, 'Fabio', 200);
+
+account.setName('Fabio Luz');
+
+account.deposite(100);
+
+account.withdraw(50);
